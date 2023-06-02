@@ -5,12 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tipos de Display</title>
+    <style>
+
+        body * {
+            background-color: bisque;
+            width: 200px;
+            height: 100px;
+        }
+        *{
+            display:block;
+        }
+        #container {
+        width: 800px;
+        height: 500px;
+        margin: 0 auto;
+        border: 1px solid black;
+        display: flex;
+        justify-content: flex-star;
+    
+    }
+    
+    .item{
+        width: 150px;
+        height: 150px;
+        margin: 5px;
+        border: 1px solid black;
+        background-color: blueviolet;
+    
+    }
+    </style>
 </head>
 <body>
     <div>Este es Display Block. Se puede modificar el width y heigth</div>
     <section>Esta y otras etiquetas son block</section>
     <p>Esta tiene un display inline block</p>
-    <a href=""></a>
+    <a href="">Esta tiene display inline</a>
+    <a href="">el display inline no cambia width y heigth</a>
+    <button>Display Inline-Block</button>
     
 </body>
 </html>
